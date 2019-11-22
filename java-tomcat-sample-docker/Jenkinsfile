@@ -15,7 +15,7 @@ pipeline {
 
         stage('Create Tomcat Docker Image'){
             steps {
-                sh "find / -name "java-tomcat-maven-example.war""
+                sh "find / -name java-tomcat-maven-example.war"
                 sh "pwd"
                 sh "ls -a"
                 sh "docker build ./java-tomcat-sample-docker -t tomcatsamplewebapp:${env.BUILD_ID}"
