@@ -1,7 +1,7 @@
 <html>
 <body>
-<h2>===ESTAPAR PARKING===</h2>
-<p> Juscelino Kubitschek Avenue, 1830 - Vila Nova Conceição, São Paulo - State of São Paulo  </p>
+<h2>===ESTAPAR ESTACIONAMENTO===</h2>
+<p> Juscelino Kubitschek Avenue, 1830 - Vila Nova Conceicao, Sao Paulo - State of Sao Paulo  </p>
 <p> It shoud be implemented today untill 9:00am  </p>
 </body>
 </html>
