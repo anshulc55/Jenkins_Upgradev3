@@ -3,6 +3,9 @@
 Jenkins_Upgrade3_20200219
 
 
-http://ec2-52-71-252-14.compute-1.amazonaws.com:8080
+http://ec2-52-71-252-14.compute-1.amazonaws.com:8080 JENKINS
+
+
+http://ec2-52-71-252-14.compute-1.amazonaws.com:9090 TOMCAT
 
 
