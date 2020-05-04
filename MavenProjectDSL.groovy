@@ -7,7 +7,6 @@ job('First-Maven-Project-Via-DSL') {
         scm('* * * * *')
     }
     steps {
-		def mvnHome = tool name: 'my_maven',type:'maven'
         maven('clean package', 'maven-samples/single-module/pom.xml')
     }
     publishers {
