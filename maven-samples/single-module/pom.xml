@@ -4,6 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-samples</groupId>
+
+
   <artifactId>single-module-project</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
@@ -18,7 +20,7 @@
 
   <distributionManagement>
     <site>
-      <id>site-server</id>
+      <id>site-server</id> 
       <name>Test Project Site</name>
       <url>file:///tmp/single-module-site</url>
     </site>
