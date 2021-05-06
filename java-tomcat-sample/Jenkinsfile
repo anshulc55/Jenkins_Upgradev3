@@ -12,19 +12,19 @@ pipeline {
                 }
             }
         }
-        stage('narendar integration'){
+        stage('deploy staging env'){
             steps{
-                build job: 'narendar integration'
+                build job: 'deploy staging env'
 
             }
             
         }
-        stage('deploy prod'){
+        stage('deploy production env'){
             steps{
                 timeout(time:5, unit:'DAYS'){
                     input message:'Approve PRODUCTION Deployment?'
                 }
-                build job: 'deploy prod'
+                build job: 'deploy production env'
             }
         }
     }
