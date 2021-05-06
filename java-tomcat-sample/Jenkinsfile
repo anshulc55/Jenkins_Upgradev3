@@ -11,15 +11,21 @@ pipeline {
                     archiveArtifacts artifacts: '**/*.war'
                 }
             }
-            stage('deploy staging env'){
+        }
+        stage('deploy staging env'){
+            steps{
                 build job: 'deploy staging env'
+
+            }
+            
+        }
+        stage('deploy production env'){
+            steps{
+                timeout(time:5, unit:'DAYS'){
+                    input message:'Approve PRODUCTION Deployment?'
+                }
+                build job: 'deploy production env'
             }
         }
     }
 }
-
-
-
-
-
-
