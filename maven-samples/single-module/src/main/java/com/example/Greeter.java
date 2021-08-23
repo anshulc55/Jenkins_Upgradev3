@@ -20,7 +20,7 @@ public class Greeter {
 
   //TODO: Add javadoc comment
   public String greetByTanzeel(String someone) {
-    return String.format("Hello, %s!", someone);
+    return String.format("Hello Tanzeel, %s!", someone);
   }
   
   public static void main(String args[]){
