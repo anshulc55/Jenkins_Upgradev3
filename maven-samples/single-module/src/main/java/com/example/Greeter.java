@@ -18,6 +18,10 @@ public class Greeter {
     return String.format("Hello, %s!", someone);
   }
 
+  //TODO: Add javadoc comment
+  public String greetByTanzeel(String someone) {
+    return String.format("Hello, %s!", someone);
+  }
   
   public static void main(String args[]){
     
