@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>deployed in SIT</h2>
+<h2>SIT check is ok, you can go with PROd</h2>
 </body>
 </html>
