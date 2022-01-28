@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>java-tomcat-maven-example</finalName>
+    <finalName>java-tomcat-sample-example</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
