@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy in Staging Environment'){
             steps{
-                deploy contextPath: null, war: '**/target/*.war'
+               build job: 'Deploy_Application_Staging_Env'
 
             }
             
