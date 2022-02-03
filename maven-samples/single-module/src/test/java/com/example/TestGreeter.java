@@ -11,8 +11,6 @@ import static org.hamcrest.Matchers.lessThan;
 import static org.junit.Assert.assertThat;
 import static org.junit.matchers.JUnitMatchers.containsString;
 
-echo "This is the test for poll SCM"
-
 public class TestGreeter {
 
   private Greeter greeter;
