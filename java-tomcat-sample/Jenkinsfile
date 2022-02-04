@@ -12,9 +12,9 @@ pipeline {
                 }
             }
         }
-        stage('Deploy_Application_Production'){
+        stage('Deploy_Application_Staging'){
             steps{
-                build job: 'Deploy_Application_Staging'
+                build job: 'Package_Application'
 
             }
             
