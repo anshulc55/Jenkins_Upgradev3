@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World!This is the Deployment!! Ashish Shinde is BOSS!! ...</h2>
+<h2>Hello World!This is the Deployment. Shradha is Boss ...</h2>
 </body>
 </html>
