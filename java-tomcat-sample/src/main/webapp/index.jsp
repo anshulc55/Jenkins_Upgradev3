@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>SIT looks good, you can go with PRODUCTION</h2>
+<h2>Hello world</h2>
 </body>
 </html>
