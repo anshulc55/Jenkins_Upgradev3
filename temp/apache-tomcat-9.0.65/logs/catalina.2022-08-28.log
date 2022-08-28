@@ -1476,3 +1476,12 @@
 28-Aug-2022 15:57:51.978 INFO [http-nio-9090-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
 28-Aug-2022 15:57:51.995 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
 28-Aug-2022 15:57:52.033 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [38] ms
+28-Aug-2022 16:11:04.138 INFO [http-nio-9090-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+28-Aug-2022 16:11:04.147 INFO [http-nio-9090-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+28-Aug-2022 16:11:04.186 INFO [http-nio-9090-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [39] ms
+28-Aug-2022 16:12:09.305 INFO [http-nio-9090-exec-26] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+28-Aug-2022 16:12:09.314 INFO [http-nio-9090-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+28-Aug-2022 16:12:09.352 INFO [http-nio-9090-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [38] ms
+28-Aug-2022 16:13:51.210 INFO [http-nio-9090-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+28-Aug-2022 16:13:51.218 INFO [http-nio-9090-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+28-Aug-2022 16:13:51.246 INFO [http-nio-9090-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [29] ms

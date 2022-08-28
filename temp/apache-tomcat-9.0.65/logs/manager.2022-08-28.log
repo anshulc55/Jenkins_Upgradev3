@@ -38,3 +38,18 @@
 28-Aug-2022 15:57:51.456 INFO [http-nio-9090-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/'
 28-Aug-2022 15:57:51.992 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/'
 28-Aug-2022 15:57:51.992 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war
+28-Aug-2022 16:11:03.612 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Aug-2022 16:11:03.616 INFO [http-nio-9090-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Aug-2022 16:11:03.618 INFO [http-nio-9090-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/'
+28-Aug-2022 16:11:04.145 INFO [http-nio-9090-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/'
+28-Aug-2022 16:11:04.145 INFO [http-nio-9090-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war
+28-Aug-2022 16:12:08.778 INFO [http-nio-9090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Aug-2022 16:12:08.781 INFO [http-nio-9090-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Aug-2022 16:12:08.783 INFO [http-nio-9090-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/'
+28-Aug-2022 16:12:09.313 INFO [http-nio-9090-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/'
+28-Aug-2022 16:12:09.313 INFO [http-nio-9090-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war
+28-Aug-2022 16:13:50.681 INFO [http-nio-9090-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Aug-2022 16:13:50.684 INFO [http-nio-9090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Aug-2022 16:13:50.686 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/'
+28-Aug-2022 16:13:51.216 INFO [http-nio-9090-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/'
+28-Aug-2022 16:13:51.216 INFO [http-nio-9090-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war
