@@ -1,0 +1,5 @@
+127.0.0.1 - - [29/Aug/2022:08:50:28 +0200] "GET / HTTP/1.1" 200 100
+127.0.0.1 - 2tommy [29/Aug/2022:08:51:48 +0200] "GET /manager/text/list HTTP/1.1" 200 196
+127.0.0.1 - 2tommy [29/Aug/2022:08:51:48 +0200] "GET /manager/text/list HTTP/1.1" 200 196
+127.0.0.1 - 2tommy [29/Aug/2022:08:51:49 +0200] "GET /manager/text/undeploy?path=%2F HTTP/1.1" 200 59
+127.0.0.1 - 2tommy [29/Aug/2022:08:51:49 +0200] "PUT /manager/text/deploy?path=%2F HTTP/1.1" 200 57
