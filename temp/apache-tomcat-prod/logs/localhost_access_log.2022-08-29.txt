@@ -25,3 +25,15 @@
 127.0.0.1 - - [29/Aug/2022:10:00:00 +0200] "GET / HTTP/1.1" 200 100
 127.0.0.1 - - [29/Aug/2022:10:00:01 +0200] "GET /favicon.ico HTTP/1.1" 404 762
 127.0.0.1 - - [29/Aug/2022:10:02:44 +0200] "GET / HTTP/1.1" 200 100
+127.0.0.1 - - [29/Aug/2022:10:30:03 +0200] "GET / HTTP/1.1" 200 100
+127.0.0.1 - 2tommy [29/Aug/2022:10:30:10 +0200] "GET /manager/text/list HTTP/1.1" 200 196
+127.0.0.1 - 2tommy [29/Aug/2022:10:30:10 +0200] "PUT /manager/text/deploy?path=%2Fjava-tomcat-maven-example HTTP/1.1" 200 82
+127.0.0.1 - 2tommy [29/Aug/2022:10:32:13 +0200] "GET /manager/text/list HTTP/1.1" 200 259
+127.0.0.1 - 2tommy [29/Aug/2022:10:32:13 +0200] "GET /manager/text/list HTTP/1.1" 200 259
+127.0.0.1 - 2tommy [29/Aug/2022:10:32:14 +0200] "GET /manager/text/undeploy?path=%2Fjava-tomcat-maven-example HTTP/1.1" 200 84
+127.0.0.1 - 2tommy [29/Aug/2022:10:32:14 +0200] "PUT /manager/text/deploy?path=%2Fjava-tomcat-maven-example HTTP/1.1" 200 82
+127.0.0.1 - - [29/Aug/2022:10:32:25 +0200] "GET / HTTP/1.1" 200 100
+127.0.0.1 - 2tommy [29/Aug/2022:10:33:12 +0200] "GET /manager/text/list HTTP/1.1" 200 259
+127.0.0.1 - 2tommy [29/Aug/2022:10:33:12 +0200] "GET /manager/text/list HTTP/1.1" 200 259
+127.0.0.1 - 2tommy [29/Aug/2022:10:33:12 +0200] "GET /manager/text/undeploy?path=%2Fjava-tomcat-maven-example HTTP/1.1" 200 84
+127.0.0.1 - 2tommy [29/Aug/2022:10:33:12 +0200] "PUT /manager/text/deploy?path=%2Fjava-tomcat-maven-example HTTP/1.1" 200 82
