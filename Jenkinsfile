@@ -21,14 +21,12 @@ pipeline {
                   steps {
                           echo "Deploying in Production Area 321"
                   }
-                   
-                  }
-
-            }stage('Concluding step') {
+                  
+            }
+            stage('Concluding step') {
                   steps {
                         echo "Concluding extra step in production"
                   }
-
             }
       }
 }
