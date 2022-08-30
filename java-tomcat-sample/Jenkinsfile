@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    tools { 
-        maven 'LokalnyMaven' 
-        jdk 'LokalnnyJDK' 
+    tools {
+        maven 'LokalnyMaven'
+        jdk 'LokalnnyJDK'
     }
     stages {
         stage ('Initialize') {
@@ -10,9 +10,24 @@ pipeline {
                 sh '''
                     echo "PATH = ${PATH}"
                     echo "M2_HOME = ${M2_HOME}"
-                ''' 
+                '''
             }
         }
+
+        stage('Build Application123') {
+            steps {
+                sh 'mvn -f java-tomcat-sample/pom.xml clean package'
+            }
+            post {
+                success {
+                    echo "Now Archiving the Artifacts...."
+                    archiveArtifacts artifacts: '**/*.war'
+                }
+            }
+        }
+        stage('Deploy in Staging Environment'){
+            steps{
+                build job: 'Deploy_application_staging_envinronment'
 
         stage ('Build') {
             steps {
