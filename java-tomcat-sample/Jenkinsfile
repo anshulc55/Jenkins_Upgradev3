@@ -2,34 +2,21 @@ pipeline {
     agent any
     tools { 
         maven 'LokalnyMaven' 
-        jdk 'LokalnnyJDK' 
+        jdk 'LokalnyJDK' 
     }
     stages {
-        
-        stage ('Build application') {
+        stage ('Initialize') {
             steps {
-                sh 'mvn -f java-tomcat-sample/pom.xml clean package'
-            }
-            post {
-                success {
-                    echo "Now Archiving the Artifacts...."
-                    archiveArtifacts artifacts: '**/*.war'
-                }
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                ''' 
             }
         }
-        stage('Deploy in Staging Environment'){
-            steps{
-                build job: 'Deploy_application_staging_envinronment'
 
-            }
-
-        }
-        stage('Deploy to Production'){
-            steps{
-                timeout(time:5, unit:'DAYS'){
-                    input message:'Approve PRODUCTION Deployment?'
-                }
-                build job: 'Deploy_application_prod_envinronment'
+        stage ('Build') {
+            steps {
+                echo 'This is a minimal pipeline.'
             }
         }
     }
