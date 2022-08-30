@@ -27,7 +27,6 @@ pipeline {
                   steps {
                         echo "Concluding extra step in production"
                   }
-               
             }
       }
 }
