@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Application123') {
             steps {
-                sh 'mvn -f java-tomcat-sample/pom.xml clean'
+                sh 'mvn -f java-tomcat-sample/pom.xml clean package'
             }
             post {
                 success {
