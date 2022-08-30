@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build Application') {
+        stage('Build Application123') {
             steps {
                 sh 'mvn -f java-tomcat-sample/pom.xml clean package'
             }
@@ -17,7 +17,7 @@ pipeline {
                 build job: 'Deploy_Application_Staging_Env'
 
             }
-            
+
         }
         stage('Deploy to Production'){
             steps{
