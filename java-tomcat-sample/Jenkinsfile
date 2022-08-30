@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven 3.3.9'
-        jdk 'jdk8'
+        maven 'LokalnyMaven'
+        jdk 'LokalnnyJDK'
     }
     stages {
         stage ('Initialize') {
@@ -13,7 +13,7 @@ pipeline {
                 '''
             }
         }
-        
+
         stage('Build Application123') {
             steps {
                 sh 'mvn -f java-tomcat-sample/pom.xml clean package'
