@@ -13,6 +13,7 @@ pipeline {
                 '''
             }
         }
+<<<<<<< HEAD
 
         stage('Build Application123') {
             steps {
@@ -30,8 +31,32 @@ pipeline {
                 build job: 'Deploy_application_staging_envinronment'
 
         stage ('Build') {
+=======
+        stage('Build Application') {
+>>>>>>> c0b317e13f4fbba9fd1bf336a742ce72fe1c6bc9
             steps {
-                echo 'This is a minimal pipeline.'
+                sh 'mvn -f java-tomcat-sample/pom.xml clean package'
+            }
+            post {
+                success {
+                    echo "Now Archiving the Artifacts...."
+                    archiveArtifacts artifacts: '**/*.war'
+                }
+            }
+        }
+        stage('Deploy in Staging Environment'){
+            steps{
+                build job: 'Deploy_application_staging_envinronment'
+
+            }
+            
+        }
+        stage('Deploy to Production'){
+            steps{
+                timeout(time:5, unit:'DAYS'){
+                    input message:'Approve PRODUCTION Deployment?'
+                }
+                build job: 'Deploy_application_prod_envinronment'
             }
         }
     }
