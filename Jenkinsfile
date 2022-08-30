@@ -19,8 +19,13 @@ pipeline {
             }
             stage('Deploy Production 123') {
                   steps {
-                        echo "Deploying in Production Area 321"
+                          echo "Deploying in Production Area 321"
                   }
+                        stage('extra concludnig step') {
+            steps {
+                          echo "extra step in prod"
+                  }
+            }
             }
       }
 }
