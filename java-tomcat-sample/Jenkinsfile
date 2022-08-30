@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools { 
         maven 'LokalnyMaven' 
-        jdk 'LokalnyJDK' 
+        jdk 'LokalnnyJDK' 
     }
     stages {
         stage ('Initialize') {
