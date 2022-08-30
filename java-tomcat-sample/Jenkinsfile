@@ -5,16 +5,7 @@ pipeline {
         jdk 'LokalnnyJDK' 
     }
     stages {
-        stage ('Initialize') {
-            steps {
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "M2_HOME = ${M2_HOME}"
-                ''' 
-            }
-        }
-    }
-
+        
         stage ('Build application') {
             steps {
                 sh 'mvn -f java-tomcat-sample/pom.xml clean package'
