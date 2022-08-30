@@ -392,3 +392,7 @@
 29-Aug-2022 10:33:12.662 INFO [http-nio-9091-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/java-tomcat-maven-example]
 29-Aug-2022 10:33:12.671 INFO [http-nio-9091-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-prod/webapps/java-tomcat-maven-example.war]
 29-Aug-2022 10:33:12.710 INFO [http-nio-9091-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-prod/webapps/java-tomcat-maven-example.war] has finished in [39] ms
+29-Aug-2022 14:43:42.731 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9091"]
+29-Aug-2022 14:43:42.755 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Aug-2022 14:43:42.817 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9091"]
+29-Aug-2022 14:43:42.826 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9091"]
