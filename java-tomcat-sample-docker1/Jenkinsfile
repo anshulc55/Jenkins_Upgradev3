@@ -1,0 +1,53 @@
+pipeline {
+    agent any
+    tools {
+        maven 'LokalnyMaven'
+        jdk 'LokalnnyJDK'
+    }
+    stages {
+        stage ('Initialize') {
+            steps {
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                '''
+            }
+        }
+<<<<<<< HEAD
+
+        stage('Build Application123') {
+            steps {
+                sh 'mvn -f java-tomcat-sample/pom.xml clean package'
+            }
+            post {
+                success {
+                    echo "Now Archiving the Artifacts...."
+                    archiveArtifacts artifacts: '**/*.war'
+                }
+            }
+        }
+        stage('Deploy in Staging Environment'){
+            steps{
+                build job: 'Deploy_application_staging_envinronment'
+
+        stage ('Build') {
+=======
+        stage('Build Application') {
+>>>>>>> c0b317e13f4fbba9fd1bf336a742ce72fe1c6bc9
+            steps {
+                sh 'mvn -f java-tomcat-sample/pom.xml clean package'
+            }
+            post {
+                success {
+                    echo "Now Archiving the Artifacts...."
+                    archiveArtifacts artifacts: '**/*.war'
+                }
+            }
+        }
+        stage('Create tomcat docker image'){
+          steps{
+              sh 'docker build . -t tomcatsamplewevapp:$env.BUILD_ID'
+              }
+        }
+    }
+}
