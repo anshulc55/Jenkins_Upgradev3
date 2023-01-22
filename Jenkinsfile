@@ -20,6 +20,10 @@ pipeline {
                 sh "docker build . -t tomcatsamplewebapp:${env.BUILD_ID}"
             }
         }
-
+        stage('Run Docker Image'){
+            steps {                
+                sh "docker run -name test -p 9999:8080 tomcatsamplewebapp:${env.BUILD_ID}"
+            }
+        }
     }
 }
