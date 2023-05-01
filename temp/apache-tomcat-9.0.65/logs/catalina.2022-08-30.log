@@ -1,0 +1,422 @@
+30-Aug-2022 13:00:43.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.65
+30-Aug-2022 13:00:43.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 12:28:53 UTC
+30-Aug-2022 13:00:43.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.65.0
+30-Aug-2022 13:00:43.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Aug-2022 13:00:43.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.5
+30-Aug-2022 13:00:43.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Aug-2022 13:00:43.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+30-Aug-2022 13:00:43.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+30-Aug-2022 13:00:43.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+30-Aug-2022 13:00:43.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 13:00:43.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 13:00:43.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Aug-2022 13:00:43.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Aug-2022 13:00:43.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Aug-2022 13:00:43.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Aug-2022 13:00:43.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Aug-2022 13:00:43.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/conf/logging.properties
+30-Aug-2022 13:00:43.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Aug-2022 13:00:43.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Aug-2022 13:00:43.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Aug-2022 13:00:43.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Aug-2022 13:00:43.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Aug-2022 13:00:43.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 13:00:43.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 13:00:43.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/temp
+30-Aug-2022 13:00:43.470 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fradaperypetie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Aug-2022 13:00:44.017 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:00:44.087 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1078] milliseconds
+30-Aug-2022 13:00:44.184 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Aug-2022 13:00:44.184 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.65]
+30-Aug-2022 13:00:44.218 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 13:00:44.759 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [540] ms
+30-Aug-2022 13:00:44.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs]
+30-Aug-2022 13:00:44.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs] has finished in [29] ms
+30-Aug-2022 13:00:44.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager]
+30-Aug-2022 13:00:44.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager] has finished in [75] ms
+30-Aug-2022 13:00:44.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples]
+30-Aug-2022 13:00:45.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples] has finished in [472] ms
+30-Aug-2022 13:00:45.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager]
+30-Aug-2022 13:00:45.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager] has finished in [44] ms
+30-Aug-2022 13:00:45.392 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:00:45.413 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1325] milliseconds
+30-Aug-2022 13:01:18.615 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Aug-2022 13:01:18.616 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:01:18.622 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Aug-2022 13:01:18.668 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:01:18.684 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:02:32.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.65
+30-Aug-2022 13:02:32.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 12:28:53 UTC
+30-Aug-2022 13:02:32.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.65.0
+30-Aug-2022 13:02:32.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Aug-2022 13:02:32.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.5
+30-Aug-2022 13:02:32.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Aug-2022 13:02:32.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+30-Aug-2022 13:02:32.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+30-Aug-2022 13:02:32.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+30-Aug-2022 13:02:32.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 13:02:32.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 13:02:32.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Aug-2022 13:02:32.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Aug-2022 13:02:32.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Aug-2022 13:02:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Aug-2022 13:02:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Aug-2022 13:02:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/conf/logging.properties
+30-Aug-2022 13:02:32.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Aug-2022 13:02:32.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Aug-2022 13:02:32.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Aug-2022 13:02:32.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Aug-2022 13:02:32.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Aug-2022 13:02:32.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 13:02:32.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 13:02:32.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/temp
+30-Aug-2022 13:02:32.078 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fradaperypetie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Aug-2022 13:02:32.980 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:02:33.048 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1433] milliseconds
+30-Aug-2022 13:02:33.185 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Aug-2022 13:02:33.185 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.65]
+30-Aug-2022 13:02:33.225 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 13:02:34.305 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [1,079] ms
+30-Aug-2022 13:02:34.306 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs]
+30-Aug-2022 13:02:34.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs] has finished in [35] ms
+30-Aug-2022 13:02:34.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager]
+30-Aug-2022 13:02:34.426 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager] has finished in [84] ms
+30-Aug-2022 13:02:34.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples]
+30-Aug-2022 13:02:34.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples] has finished in [485] ms
+30-Aug-2022 13:02:34.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager]
+30-Aug-2022 13:02:34.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager] has finished in [36] ms
+30-Aug-2022 13:02:34.956 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:02:34.981 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1931] milliseconds
+30-Aug-2022 13:02:34.995 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:580)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Aug-2022 13:02:34.997 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:02:35.003 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Aug-2022 13:02:35.079 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 13:02:35.094 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:10:35.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.65
+30-Aug-2022 14:10:35.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 12:28:53 UTC
+30-Aug-2022 14:10:35.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.65.0
+30-Aug-2022 14:10:35.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Aug-2022 14:10:35.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.5
+30-Aug-2022 14:10:35.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Aug-2022 14:10:35.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+30-Aug-2022 14:10:35.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+30-Aug-2022 14:10:35.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+30-Aug-2022 14:10:35.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:10:35.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:10:35.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Aug-2022 14:10:35.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Aug-2022 14:10:35.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Aug-2022 14:10:35.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Aug-2022 14:10:35.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Aug-2022 14:10:35.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/conf/logging.properties
+30-Aug-2022 14:10:35.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Aug-2022 14:10:35.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Aug-2022 14:10:35.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Aug-2022 14:10:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Aug-2022 14:10:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Aug-2022 14:10:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:10:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:10:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/temp
+30-Aug-2022 14:10:35.170 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fradaperypetie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Aug-2022 14:10:35.715 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:10:35.767 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [964] milliseconds
+30-Aug-2022 14:10:35.878 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Aug-2022 14:10:35.879 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.65]
+30-Aug-2022 14:10:35.926 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:10:36.561 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [634] ms
+30-Aug-2022 14:10:36.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs]
+30-Aug-2022 14:10:36.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs] has finished in [38] ms
+30-Aug-2022 14:10:36.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager]
+30-Aug-2022 14:10:36.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager] has finished in [55] ms
+30-Aug-2022 14:10:36.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples]
+30-Aug-2022 14:10:37.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples] has finished in [365] ms
+30-Aug-2022 14:10:37.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager]
+30-Aug-2022 14:10:37.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager] has finished in [36] ms
+30-Aug-2022 14:10:37.067 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:10:37.092 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1323] milliseconds
+30-Aug-2022 14:12:35.756 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Aug-2022 14:12:35.757 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:12:35.761 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Aug-2022 14:12:35.805 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:12:35.810 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:16:02.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.65
+30-Aug-2022 14:16:02.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 12:28:53 UTC
+30-Aug-2022 14:16:02.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.65.0
+30-Aug-2022 14:16:02.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Aug-2022 14:16:02.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.5
+30-Aug-2022 14:16:02.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Aug-2022 14:16:02.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+30-Aug-2022 14:16:02.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+30-Aug-2022 14:16:02.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+30-Aug-2022 14:16:02.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:16:02.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:16:02.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Aug-2022 14:16:02.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Aug-2022 14:16:02.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Aug-2022 14:16:02.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Aug-2022 14:16:02.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Aug-2022 14:16:02.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/conf/logging.properties
+30-Aug-2022 14:16:02.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Aug-2022 14:16:02.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Aug-2022 14:16:02.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Aug-2022 14:16:02.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Aug-2022 14:16:02.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Aug-2022 14:16:02.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:16:02.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:16:02.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/temp
+30-Aug-2022 14:16:02.980 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fradaperypetie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Aug-2022 14:16:03.606 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:16:03.661 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1168] milliseconds
+30-Aug-2022 14:16:03.760 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Aug-2022 14:16:03.760 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.65]
+30-Aug-2022 14:16:03.784 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:16:04.265 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [481] ms
+30-Aug-2022 14:16:04.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs]
+30-Aug-2022 14:16:04.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs] has finished in [30] ms
+30-Aug-2022 14:16:04.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager]
+30-Aug-2022 14:16:04.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager] has finished in [62] ms
+30-Aug-2022 14:16:04.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples]
+30-Aug-2022 14:16:04.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples] has finished in [379] ms
+30-Aug-2022 14:16:04.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager]
+30-Aug-2022 14:16:04.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager] has finished in [30] ms
+30-Aug-2022 14:16:04.777 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:16:04.801 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1140] milliseconds
+30-Aug-2022 14:16:04.808 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:580)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Aug-2022 14:16:04.810 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:16:04.818 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Aug-2022 14:16:04.847 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:16:04.860 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:17:50.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.65
+30-Aug-2022 14:17:50.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 12:28:53 UTC
+30-Aug-2022 14:17:50.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.65.0
+30-Aug-2022 14:17:50.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Aug-2022 14:17:50.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.5
+30-Aug-2022 14:17:50.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Aug-2022 14:17:50.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+30-Aug-2022 14:17:50.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+30-Aug-2022 14:17:50.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+30-Aug-2022 14:17:50.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:17:50.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:17:50.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Aug-2022 14:17:50.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Aug-2022 14:17:50.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Aug-2022 14:17:50.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Aug-2022 14:17:50.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Aug-2022 14:17:50.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/conf/logging.properties
+30-Aug-2022 14:17:50.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Aug-2022 14:17:50.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Aug-2022 14:17:50.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Aug-2022 14:17:50.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Aug-2022 14:17:50.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Aug-2022 14:17:50.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:17:50.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:17:50.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/temp
+30-Aug-2022 14:17:50.311 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fradaperypetie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Aug-2022 14:17:50.969 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:17:51.053 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1247] milliseconds
+30-Aug-2022 14:17:51.175 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Aug-2022 14:17:51.175 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.65]
+30-Aug-2022 14:17:51.212 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:17:52.134 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [922] ms
+30-Aug-2022 14:17:52.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs]
+30-Aug-2022 14:17:52.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs] has finished in [36] ms
+30-Aug-2022 14:17:52.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager]
+30-Aug-2022 14:17:52.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager] has finished in [71] ms
+30-Aug-2022 14:17:52.244 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples]
+30-Aug-2022 14:17:52.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples] has finished in [753] ms
+30-Aug-2022 14:17:52.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager]
+30-Aug-2022 14:17:53.043 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager] has finished in [44] ms
+30-Aug-2022 14:17:53.051 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:17:53.078 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2023] milliseconds
+30-Aug-2022 14:29:27.675 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Aug-2022 14:29:27.676 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:29:27.680 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Aug-2022 14:29:27.720 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:29:27.733 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:29:31.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.65
+30-Aug-2022 14:29:31.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 12:28:53 UTC
+30-Aug-2022 14:29:31.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.65.0
+30-Aug-2022 14:29:31.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Aug-2022 14:29:31.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.5
+30-Aug-2022 14:29:31.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Aug-2022 14:29:31.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+30-Aug-2022 14:29:31.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+30-Aug-2022 14:29:31.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+30-Aug-2022 14:29:31.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:29:31.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:29:31.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Aug-2022 14:29:31.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Aug-2022 14:29:31.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Aug-2022 14:29:31.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Aug-2022 14:29:31.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Aug-2022 14:29:31.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/conf/logging.properties
+30-Aug-2022 14:29:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Aug-2022 14:29:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Aug-2022 14:29:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Aug-2022 14:29:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Aug-2022 14:29:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Aug-2022 14:29:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:29:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:29:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/temp
+30-Aug-2022 14:29:31.710 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fradaperypetie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Aug-2022 14:29:32.197 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:29:32.250 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [935] milliseconds
+30-Aug-2022 14:29:32.329 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Aug-2022 14:29:32.329 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.65]
+30-Aug-2022 14:29:32.350 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:29:32.791 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [440] ms
+30-Aug-2022 14:29:32.792 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs]
+30-Aug-2022 14:29:32.828 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs] has finished in [37] ms
+30-Aug-2022 14:29:32.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager]
+30-Aug-2022 14:29:32.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager] has finished in [71] ms
+30-Aug-2022 14:29:32.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples]
+30-Aug-2022 14:29:33.306 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples] has finished in [405] ms
+30-Aug-2022 14:29:33.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager]
+30-Aug-2022 14:29:33.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager] has finished in [31] ms
+30-Aug-2022 14:29:33.344 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:29:33.364 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1113] milliseconds
+30-Aug-2022 14:29:59.385 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Aug-2022 14:29:59.386 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:29:59.397 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Aug-2022 14:29:59.447 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:29:59.460 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:36:17.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.65
+30-Aug-2022 14:36:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 12:28:53 UTC
+30-Aug-2022 14:36:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.65.0
+30-Aug-2022 14:36:17.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Aug-2022 14:36:17.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.5
+30-Aug-2022 14:36:17.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Aug-2022 14:36:17.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+30-Aug-2022 14:36:17.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+30-Aug-2022 14:36:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+30-Aug-2022 14:36:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:36:17.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:36:17.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Aug-2022 14:36:17.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Aug-2022 14:36:17.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Aug-2022 14:36:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Aug-2022 14:36:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Aug-2022 14:36:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/conf/logging.properties
+30-Aug-2022 14:36:17.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Aug-2022 14:36:17.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Aug-2022 14:36:17.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Aug-2022 14:36:17.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Aug-2022 14:36:17.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Aug-2022 14:36:17.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:36:17.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:36:17.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/temp
+30-Aug-2022 14:36:17.543 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fradaperypetie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Aug-2022 14:36:18.338 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:36:18.440 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1527] milliseconds
+30-Aug-2022 14:36:18.587 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Aug-2022 14:36:18.587 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.65]
+30-Aug-2022 14:36:18.621 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:36:19.698 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [1,076] ms
+30-Aug-2022 14:36:19.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs]
+30-Aug-2022 14:36:19.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs] has finished in [30] ms
+30-Aug-2022 14:36:19.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager]
+30-Aug-2022 14:36:19.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager] has finished in [71] ms
+30-Aug-2022 14:36:19.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples]
+30-Aug-2022 14:36:20.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples] has finished in [657] ms
+30-Aug-2022 14:36:20.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager]
+30-Aug-2022 14:36:20.540 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager] has finished in [82] ms
+30-Aug-2022 14:36:20.552 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:36:20.575 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2133] milliseconds
+30-Aug-2022 14:37:34.320 INFO [http-nio-9090-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+30-Aug-2022 14:37:34.390 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:37:34.445 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [54] ms
+30-Aug-2022 14:38:14.511 INFO [http-nio-9090-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+30-Aug-2022 14:38:14.527 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:38:14.591 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [64] ms
+30-Aug-2022 14:40:16.214 INFO [http-nio-9090-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+30-Aug-2022 14:40:16.225 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:40:16.261 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [36] ms
+30-Aug-2022 14:40:59.878 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Aug-2022 14:40:59.879 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:40:59.885 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Aug-2022 14:40:59.917 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:40:59.929 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:47:07.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.65
+30-Aug-2022 14:47:08.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 12:28:53 UTC
+30-Aug-2022 14:47:08.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.65.0
+30-Aug-2022 14:47:08.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Aug-2022 14:47:08.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.5
+30-Aug-2022 14:47:08.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Aug-2022 14:47:08.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+30-Aug-2022 14:47:08.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+30-Aug-2022 14:47:08.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+30-Aug-2022 14:47:08.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:47:08.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:47:08.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Aug-2022 14:47:08.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Aug-2022 14:47:08.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Aug-2022 14:47:08.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Aug-2022 14:47:08.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Aug-2022 14:47:08.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/conf/logging.properties
+30-Aug-2022 14:47:08.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Aug-2022 14:47:08.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Aug-2022 14:47:08.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Aug-2022 14:47:08.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Aug-2022 14:47:08.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Aug-2022 14:47:08.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:47:08.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65
+30-Aug-2022 14:47:08.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/temp
+30-Aug-2022 14:47:08.047 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fradaperypetie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Aug-2022 14:47:08.891 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:47:08.950 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1464] milliseconds
+30-Aug-2022 14:47:09.116 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Aug-2022 14:47:09.117 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.65]
+30-Aug-2022 14:47:09.148 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:47:09.814 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [665] ms
+30-Aug-2022 14:47:09.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs]
+30-Aug-2022 14:47:09.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/docs] has finished in [40] ms
+30-Aug-2022 14:47:09.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager]
+30-Aug-2022 14:47:09.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/manager] has finished in [65] ms
+30-Aug-2022 14:47:09.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples]
+30-Aug-2022 14:47:10.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/examples] has finished in [638] ms
+30-Aug-2022 14:47:10.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager]
+30-Aug-2022 14:47:10.603 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/host-manager] has finished in [40] ms
+30-Aug-2022 14:47:10.610 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:47:10.631 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1681] milliseconds
+30-Aug-2022 14:47:24.574 INFO [http-nio-9090-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+30-Aug-2022 14:47:24.589 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:47:24.635 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [46] ms
+30-Aug-2022 14:47:42.480 INFO [http-nio-9090-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+30-Aug-2022 14:47:42.618 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:47:42.684 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [66] ms
+30-Aug-2022 14:48:17.555 INFO [http-nio-9090-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+30-Aug-2022 14:48:17.563 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war]
+30-Aug-2022 14:48:17.613 INFO [http-nio-9090-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/fradaperypetie/Dysk Google/git-github/JENKINS123/temp/apache-tomcat-9.0.65/webapps/ROOT.war] has finished in [50] ms
+30-Aug-2022 14:48:30.245 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Aug-2022 14:48:30.246 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:48:30.257 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Aug-2022 14:48:30.285 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+30-Aug-2022 14:48:30.299 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
