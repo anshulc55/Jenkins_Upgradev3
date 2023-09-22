@@ -8,11 +8,6 @@ COPY jenkins-plugin-model/src/Pi.Web/Pi.Web.csproj ./Pi.Web/
 WORKDIR /jenkins-plugin-model//src/Pi.Web
 RUN dotnet restore
 
-COPY jenkins-plugin-model/src/Pi.Math/ /src/Pi.Math/
-COPY jenkins-plugin-model/src/Pi.Runtime /src/Pi.Runtime/
-COPY jenkins-plugin-model/src/Pi.Web /src/Pi.Web/
-RUN dotnet publish -c Release -o /out Pi.Web.csproj
-
 # app image
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 
