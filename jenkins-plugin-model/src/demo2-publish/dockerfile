@@ -14,6 +14,3 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0
 EXPOSE 80
 ENTRYPOINT ["dotnet", "Pi.Web.dll"]
 CMD ["-m", "console", "-dp", "6"]
-
-WORKDIR /app
-COPY --from=builder /out/ .
