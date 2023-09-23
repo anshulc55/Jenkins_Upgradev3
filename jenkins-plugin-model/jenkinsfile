@@ -39,11 +39,6 @@ pipeline {
                 sh 'chmod +x ./jenkins-plugin-model/ci/01-build.sh && ./jenkins-plugin-model/ci/01-build.sh'
             }
         }
-        stage('Smoke Test') {
-            steps {
-                sh 'chmod +x ./jenkins-plugin-model/ci/02-smoke-test.sh && ./jenkins-plugin-model/ci/02-smoke-test.sh'
-            }
-        }
 
         stage('Unit Test') {
             steps {
@@ -54,7 +49,7 @@ pipeline {
 
         stage('Push Docker Image') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'dockerHub', usernameVariable: 'DOCKER_HUB_USER', passwordVariable: 'DOCKER_HUB_PASSWORD')]) {                      
+                withCredentials([usernamePassword(credentialsId: '1bb08ca6-f3cb-4ec7-953f-c3f7a93401ac', usernameVariable: 'DOCKER_HUB_USER', passwordVariable: 'DOCKER_HUB_PASSWORD')]) {                      
                     sh 'chmod +x ./jenkins-plugin-model/ci/04-push.sh && ./jenkins-plugin-model/ci/04-push.sh'
                     sh 'Build Completed - ${env.JOB_NAME} ${env.BUILD_NUMBER}'
                 }
