@@ -79,31 +79,22 @@ namespace Pi.Math
 
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder();
-
-            // pull out the integer part
-            BigInteger remain;
-            BigInteger quotient = BigInteger.DivRem(num, HighPrecision.denom, out remain);
-            int integerDigits = quotient.IsZero ? 1 : (int)BigInteger.Log10(quotient) + 1;
-            sb.Append(quotient.ToString());
-
-            int i = 0;
-            BigInteger smallDenom = HighPrecision.denom / 10;
-            BigInteger tempRemain;
-
-            // pull out all of the 0s after the decimal point
-            while (i++ < HighPrecision.Precision && (quotient = BigInteger.DivRem(remain, smallDenom, out tempRemain)).IsZero)
+            // Convert num to a string and insert the decimal point
+            string numString = num.ToString();
+            int integerDigits = numString.Length - HighPrecision.Precision;
+        
+            if (integerDigits <= 0)
             {
-                smallDenom /= 10;
-                remain = tempRemain;
-                sb.Append('0');
+                // Add leading zeros if necessary
+                numString = "0" + numString.PadLeft(-integerDigits + HighPrecision.Precision + 1, '0');
             }
-
-            // append the rest of the remainder
-            sb.Append(remain.ToString());
-
-            // truncate and insert the decimal point
-            return sb.ToString().Remove(integerDigits + HighPrecision.Precision).Insert(integerDigits, ".");
+            else
+            {
+                // Insert the decimal point
+                numString = numString.Insert(integerDigits, ".");
+            }
+        
+            return numString;
         }
     }
 }
