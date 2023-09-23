@@ -1,0 +1,16 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout" xmlns:st="jelly:stapler">
+    <l:layout title="Docker Hub"> 
+         <l:side-panel> 
+            <st:include page="sidepanel.jelly" it="${it.run}" optional="true" /> 
+        </l:side-panel>
+        <l:main-panel> 
+            <h1> 
+                Name: ${it.getImageTag()} 
+            </h1>
+            <h2>
+                <a href="${it.getImageUrl()}" target="_blank">${it.getImageUrl()}</a>
+            </h2>
+        </l:main-panel>
+    </l:layout>
+</j:jelly>

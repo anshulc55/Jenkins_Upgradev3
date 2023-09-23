@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  jenkins:
+    image: sixeyed/psod-jenkins:2.204.4
+    build:
+      context: ./core
+
+  jenkins-old:
+    image: sixeyed/psod-jenkins:2.204.4-old
+    build:
+      context: ./old

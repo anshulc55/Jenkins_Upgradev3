@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  m3-demo1:
+    image: sixeyed/psod-jenkins:m3-demo1
+    build:
+      context: ./m3-demo1
+
+  m3-demo3:
+    image: sixeyed/psod-jenkins:m3-demo3
+    build:
+      context: ./m3-demo3
+
+  m3-demo3-v2:
+    image: sixeyed/psod-jenkins:m3-demo3-v2
+    build:
+      context: ./m3-demo3-v2
+
+  m3-demo4:
+    image: sixeyed/psod-jenkins:m3-demo4
+    build:
+      context: ./m3-demo4

@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  m5-base-164:
+    image: sixeyed/psod-jenkins:m5-base-2.164.3
+    build:
+      context: ./base/2.164.3
+
+  m5-2002:
+    image: sixeyed/psod-jenkins:m5-20.02
+    build:
+      context: ./20.02
+
+  m5-core-2003:
+    image: sixeyed/psod-jenkins:m5-base-2.222.1
+    build:
+      context: ./base/2.222.1
+
+  m5-2003:
+    image: sixeyed/psod-jenkins:m5-20.03
+    build:
+      context: ./20.03
