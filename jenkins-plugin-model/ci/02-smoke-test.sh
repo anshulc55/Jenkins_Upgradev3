@@ -1,2 +1,2 @@
 #!/bin/bash
-dotnet ./src/Pi.Web/bin/Debug/netcoreapp3.1/Pi.Web.dll
+dotnet jenkins-plugin-model/src/Pi.Web/bin/Debug/netcoreapp3.1/Pi.Web.dll

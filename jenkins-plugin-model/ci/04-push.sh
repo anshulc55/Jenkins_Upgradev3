@@ -1,5 +1,5 @@
 #!/bin/bash
-docker image build -t anshuldevops/anshuldevops/jenkins-demo2:${env.BUILD_NUMBER} -f ./jenkins-plugin-model/src/demo2-publish/dockerfile .
+docker image build -t anshuldevops/anshuldevops/jenkins-demo2:${env.BUILD_NUMBER} -f jenkins-plugin-model/src/demo2-publish/dockerfile .
 
 if [ -z ${DOCKER_HUB_USER+x} ]
 then 
