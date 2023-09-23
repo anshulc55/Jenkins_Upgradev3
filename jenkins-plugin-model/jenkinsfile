@@ -49,11 +49,22 @@ pipeline {
 
         stage('Push Docker Image') {
             steps {
+                script {
+                    // Get the job name and build number
+                    def jobName = env.JOB_NAME
+                    def buildNumber = env.BUILD_NUMBER
+
+                    // Print the job name and build number
+                    echo "Job Name: $jobName"
+                    echo "Build Number: $buildNumber"
+
+                    // Use them in shell commands
+                    sh 'sudo docker --version'
+                    sh 'sudo dotnet --info'
+                
                 withCredentials([usernamePassword(credentialsId: '1bb08ca6-f3cb-4ec7-953f-c3f7a93401ac', usernameVariable: 'DOCKER_HUB_USER', passwordVariable: 'DOCKER_HUB_PASSWORD')]) {                      
                     sh 'chmod +x ./jenkins-plugin-model/ci/04-push.sh && ./jenkins-plugin-model/ci/04-push.sh'
-                    sh 'Build Completed - ${env.JOB_NAME} ${env.BUILD_NUMBER}'
-                }
-            }
+                    sh 'Build Completed - $jobName $buildNumber'
         }
     }
 }
