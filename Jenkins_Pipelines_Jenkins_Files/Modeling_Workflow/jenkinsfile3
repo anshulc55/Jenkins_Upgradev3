@@ -10,18 +10,24 @@ pipeline {
             }
             parallel {
                 stage('linux-arm64') {
+                    agent any
                     steps {
                         echo "Building release ${RELEASE} for ${STAGE_NAME} with log level ${LOG_LEVEL}..."
+                        sh 'sleep 10'
                     }
                 }
                 stage('linux-amd64') {
+                    agent any
                     steps {
                         echo "Building release ${RELEASE} for ${STAGE_NAME} with log level ${LOG_LEVEL}..."
+                        sh 'sleep 20'
                     }
                 }
                 stage('windows-amd64') {
+                    agent any
                     steps {
                         echo "Building release ${RELEASE} for ${STAGE_NAME} with log level ${LOG_LEVEL}..."
+                        sh 'sleep 30'
                     }
                 }
             }
