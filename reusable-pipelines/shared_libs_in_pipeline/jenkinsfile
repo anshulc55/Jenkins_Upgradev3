@@ -32,7 +32,7 @@ pipeline {
 
         stage('Build') {
             environment {
-                VERSION_SUFFIX = getVersionSuffix INT_VERSION: ${INT_VERSION}, RELEASE_VERSION: ${RELEASE_VERSION}, isReleaseCandidate: ${RELEASE}
+                VERSION_SUFFIX = getVersionSuffix INT_VER: env.INT_VERSION, RELEASE_VER: env.RELEASE_VERSION, isReleaseCandidate: params.RELEASE
             }
             steps {
                 echo "Building version: ${INT_VERSION} with suffix: ${VERSION_SUFFIX}"
