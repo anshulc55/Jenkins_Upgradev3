@@ -52,10 +52,16 @@ pipeline {
             // when {
             //     expression { return params.RELEASE }
             // }
-            
+
             steps {
                 archiveArtifacts('**/*.war')
             }
+        }
+    }
+
+    post{
+        always {
+             cleanWs()
         }
     }
 }
