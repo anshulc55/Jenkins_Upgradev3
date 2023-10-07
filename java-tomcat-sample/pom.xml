@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>java-tomcat-sample</artifactId>
-  <version>${project.version}</version>
+  <version>0.0.1</version>
   <packaging>war</packaging>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
