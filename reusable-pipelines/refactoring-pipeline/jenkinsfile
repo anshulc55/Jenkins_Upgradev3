@@ -71,7 +71,7 @@ void auditTools() {
     sh '''
         git version
         java -version
-        maven -version
+        mvn -version
     '''
 }
 
