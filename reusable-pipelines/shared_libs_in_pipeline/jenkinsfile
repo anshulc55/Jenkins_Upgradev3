@@ -37,9 +37,7 @@ pipeline {
             steps {
                 echo "Building version: ${INT_VERSION} with suffix: ${VERSION_SUFFIX}"
                 echo 'Mention your Application Build Code here!!!'
-                dir('./java-tomcat-sample') {
-                    packageApplication()
-                }
+                packageApplication()
             }
         }
 
