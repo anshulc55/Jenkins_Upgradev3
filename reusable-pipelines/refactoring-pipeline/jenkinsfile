@@ -58,7 +58,6 @@ pipeline {
     }
 }
 
-
 String getBuildVersion() {
     if (params.RELEASE) {
         return env.RELEASE_VERSION + ':' + env.BUILD_NUMBER
@@ -75,7 +74,7 @@ void auditTools() {
     '''
 }
 
-void packageApplication(){
+void packageApplication() {
     sh '''
         mvn versions:set -DnewVersion="${VERSION_SUFFIX}"-SNAPSHOT
         mvn versions:update-child-modules
