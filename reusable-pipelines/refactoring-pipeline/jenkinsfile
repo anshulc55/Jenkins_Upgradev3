@@ -5,12 +5,6 @@ pipeline {
         RELEASE_VERSION = "R.2"
     }
     stages {
-        stage('CleanUp WorkSpace') {
-            steps{
-                cleanWs()
-            }
-        }
-
         stage('Audit tools') {                        
             steps {
                 sh '''
