@@ -4,9 +4,14 @@
   <groupId>com.example</groupId>
   <artifactId>java-tomcat-sample</artifactId>
   <packaging>war</packaging>
-  <version>${revision}</version>
+  <version>0.0.1</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.version>${external.version}</project.version>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
