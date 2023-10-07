@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Audit tools') {
             steps {
-                auditTools()
+                auditTools2 message: 'This is demo 2 from Job 2'
             }
         }
     }
