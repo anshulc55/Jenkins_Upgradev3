@@ -1,11 +1,11 @@
 pipeline {
     agent any
     environment {
-        VERSION = "0.1.0"        
-        RELEASE_VERSION = "R.2"
+        VERSION = '0.1.0'
+        RELEASE_VERSION = 'R.2'
     }
     stages {
-        stage('Audit tools') {                        
+        stage('Audit tools') {
             steps {
                 sh '''
                   git version
@@ -17,21 +17,26 @@ pipeline {
 
         stage('Unit Test') {
             steps {
-              dir('./java-tomcat-sample') {
-                sh '''
-                    echo "Executing Unit Tests..."
-                    mvn test
-                '''
-              }
+                dir('./java-tomcat-sample') {
+                    sh '''
+                        echo "Executing Unit Tests..."
+                        mvn test
+                    '''
+                }
             }
         }
 
         stage('Build') {
             steps {
-              echo "Building version: ${VERSION} with suffix: ${RELEASE_VERSION}"
-              echo "Mention your Application Build Code here!!!"
-              sh 'mvn -f java-tomcat-sample/pom.xml versions:set -DnewVersion="${VERSION}"-SNAPSHOT'
-              sh 'mvn -f java-tomcat-sample/pom.xml clean package'
+                echo "Building version: ${VERSION} with suffix: ${RELEASE_VERSION}"
+                echo 'Mention your Application Build Code here!!!'
+                dir('./java-tomcat-sample') {
+                        sh '''
+                            mvn versions:set -DnewVersion="${VERSION}"-SNAPSHOT
+                            mvn versions:update-child-modules
+                            mvn install
+                        '''
+                    }
             }
         }
     }
