@@ -40,7 +40,7 @@ pipeline {
                 script { 
                     def originalWorkspace = pwd()
                 }
-                packageApplication originalWorkspace = env.originalWorkspace
+                packageApplication originalWorkspace = originalWorkspace
             }
         }
 
