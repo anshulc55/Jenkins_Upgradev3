@@ -35,6 +35,7 @@ pipeline {
                             mvn versions:set -DnewVersion="${VERSION}"-SNAPSHOT
                             mvn versions:update-child-modules
                             mvn install
+                            mvn clean package
                         '''
                     }
             }
