@@ -1,8 +1,13 @@
 pipeline {
     agent any
+
+    parameters {
+        booleanParam(name: 'RELEASE', defaultValue: false, description: 'Is this a Release Candidate?')
+    }
+
     environment {
-        VERSION = '1.1.0'
-        RELEASE_VERSION = 'R.2'
+        RELEASE_VERSION = '1.1.0'
+        INT_VERSION = 'R2'
     }
     stages {
         stage('Audit tools') {
@@ -27,12 +32,15 @@ pipeline {
         }
 
         stage('Build') {
+            environment {
+                VERSION_SUFFIX = "${sh(script:'if [ "${RELEASE}" == "false" ] ; then echo -n "${INT_VERSION}+ci.${BUILD_NUMBER}"; else echo -n "${RELEASE_VERSION}"; fi', returnStdout: true)}"
+            }
             steps {
-                echo "Building version: ${VERSION} with suffix: ${RELEASE_VERSION}"
+                echo "Building version: ${INT_VERSION} with suffix: ${VERSION_SUFFIX}"
                 echo 'Mention your Application Build Code here!!!'
                 dir('./java-tomcat-sample') {
                         sh '''
-                            mvn versions:set -DnewVersion="${VERSION}"-SNAPSHOT
+                            mvn versions:set -DnewVersion="${VERSION_SUFFIX}"-SNAPSHOT
                             mvn versions:update-child-modules
                             mvn clean package
                         '''
