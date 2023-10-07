@@ -33,7 +33,7 @@ pipeline {
                 dir('./java-tomcat-sample') {
                         sh '''
                             #mvn versions:set -DnewVersion="${VERSION}"-SNAPSHOT
-                            mvn clean install -Dexternal.version=1.0.0
+                            mvn clean install -Dbuild.version=2.0
                             #mvn versions:update-child-modules
                             mvn clean package
                         '''

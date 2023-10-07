@@ -9,8 +9,9 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.version>${external.version}</project.version>
+      <build.version>1.0</build.version>
   </properties>
+
 
   <dependencies>
     <dependency>
@@ -23,6 +24,14 @@
   <build>
     <finalName>java-tomcat-maven-example</finalName>
     <plugins>
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.2.3</version>
+            <configuration>
+                <version>${build.version}</version>
+            </configuration>
+        </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
