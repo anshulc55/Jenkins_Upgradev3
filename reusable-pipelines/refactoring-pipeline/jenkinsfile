@@ -5,6 +5,10 @@ pipeline {
         RELEASE_VERSION = "R.2"
     }
     stages {
+        stage('CleanUp WorkSpace') {
+            cleanWs()
+        }
+
         stage('Audit tools') {                        
             steps {
                 sh '''
@@ -14,6 +18,7 @@ pipeline {
                 '''
             }
         }
+
         stage('Unit Test') {
             steps {
               dir('./java-tomcat-sample') {
@@ -24,6 +29,7 @@ pipeline {
               }
             }
         }
+        
         stage('Build') {
             steps {
               echo "Building version: ${VERSION} with suffix: ${RELEASE_VERSION}"
@@ -31,12 +37,6 @@ pipeline {
               sh 'mvn -f java-tomcat-sample/pom.xml versions:set -DnewVersion="${VERSION}"-SNAPSHOT'
               sh 'mvn -f java-tomcat-sample/pom.xml clean package'
             }
-        }
-    }
-    
-    post { 
-        always { 
-            cleanWs()
         }
     }
 }
