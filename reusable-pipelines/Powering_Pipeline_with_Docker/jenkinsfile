@@ -2,6 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:latest'
+            args '-u root'
         }
     }
     
@@ -42,3 +43,21 @@ pipeline {
       }
     }
 }
+
+
+
+/*
+Requirements -- 
+
+1. Jenkins Docker PlugIns
+- Docker
+- Docker Pipeline
+2. Install Docker Engine on Execution machine
+   Link -- https://docs.docker.com/engine/install/
+
+3. Add Jenkins User to Group
+sudo usermod -a -G docker jenkins
+
+4. Reboot your Machine
+reboot
+*/
