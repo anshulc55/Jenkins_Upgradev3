@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'maven:latest'
+            image 'maven:latest -u root'
         }
     }
     
@@ -14,7 +14,6 @@ pipeline {
       stage('Audit tools') {
         steps {
           sh '''
-              git -version
               java -version
               mvn -version
           '''
