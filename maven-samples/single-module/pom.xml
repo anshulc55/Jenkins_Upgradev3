@@ -28,6 +28,7 @@
     <finalName>${project.artifactId}</finalName>
 
     <plugins>
+    <!-- Aniket Shitole Made this changes -->
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
