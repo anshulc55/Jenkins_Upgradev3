@@ -3,10 +3,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>java-tomcat-sample</artifactId>
+  <version>0.0.1</version>
   <packaging>war</packaging>
-  <version>1.0.1</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+      <build.version>1.0</build.version>
+  </properties>
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -16,8 +22,16 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>java-tomcat-maven-example</finalName>
+    <finalName>${project.artifactId}-${project.version}</finalName>
     <plugins>
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.2.3</version>
+            <configuration>
+                <version>${build.version}</version>
+            </configuration>
+        </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>

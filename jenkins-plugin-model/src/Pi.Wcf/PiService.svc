@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="Pi.Wcf.PiService" 
+    CodeBehind="PiService.svc.cs" %>
