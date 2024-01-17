@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS builder
+FROM docker pull mcr.microsoft.com/dotnet/sdk:7.0-cbl-mariner2.0-amd64 AS builder
 
 WORKDIR /jenkins-plugin-model/src
 COPY jenkins-plugin-model/src/Pi.Math/Pi.Math.csproj ./Pi.Math/
