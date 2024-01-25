@@ -6,7 +6,7 @@
 
 This repository contains scripts and documentation to assist in upgrading Jenkins to version 3.0 and beyond. Jenkins is a widely-used open-source automation server that helps to automate various aspects of building, testing, and deploying software.
 
-## Table of Contents
+## Contents
 
 - [Background](#background)
 - [Features](#features)
